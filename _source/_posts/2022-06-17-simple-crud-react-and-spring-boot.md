@@ -5,19 +5,20 @@ author: matt-raible
 by: advocate
 communities: [java, javascript]
 description: "React is one of the most popular JavaScript frameworks, and Spring Boot is wildly popular in the Java ecosystem. This article shows you how to use them in the same app and secure it all with Okta."
-tags: [java, spring-boot, react, reactjs]
+tags: [java, spring-boot, react]
 tweets:
 - "React + Spring Boot makes for a nice development experience. Learn how to make them work together with OIDC authentication."
 - "Spring Boot with @java + React with @javascript == 💙. Learn how to build a @springboot + @reactjs CRUD app today!"
 image: blog/featured/okta-react-bottle-headphones.jpg
 type: conversion
+github: https://github.com/oktadev/okta-spring-boot-react-crud-example
 ---
 
 React was designed to make it painless to create interactive UIs. Its state management is efficient and only updates components when your data changes. Component logic is written in JavaScript, meaning you can keep state out of the DOM and create encapsulated components.
 
 Developers like CRUD (create, read, update, and delete) apps because they show a lot of the base functionality you need when creating an app. Once you have the basics of CRUD completed in an app, most of the client-server plumbing is finished, and you can move on to implementing the necessary business logic.
 
-Today, I'll show you how to create a basic CRUD app with Spring Boot in React. In this tutorial, I'll use the OAuth 2.0 Authorization Code flow and package the React app in the Spring Boot app for production. At the same time, I'll show you how to keep React's productive workflow for developing locally.
+Today, I'll show you how to create a basic CRUD app with Spring Boot and React. In this tutorial, I'll use the OAuth 2.0 Authorization Code flow and package the React app in the Spring Boot app for production. At the same time, I'll show you how to keep React's productive workflow for developing locally.
 
 You will need [Java 11](http://sdkman.io) and [Node 16](https://nodejs.org/) installed to complete this tutorial.
 
